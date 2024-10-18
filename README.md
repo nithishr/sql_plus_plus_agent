@@ -14,6 +14,13 @@ The agent follows a workflow as shown below:
 
 ![Agent Graph](./graph.jpg)
 
+Steps:
+
+- Get a list of the collections in the database.
+- Generate the schema for the collections based on the `infer` statement.
+- Generate the SQL++ query based on the schema.
+- Check if the query is right based on the data retrieved or absence of errors. If incorrect, try generating the query again.
+
 ### How to Run
 
 - #### Install dependencies
