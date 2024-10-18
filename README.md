@@ -1,8 +1,8 @@
 ## SQL++ Query Generation using Agents
 
-![app screenhshot](./Text_to_SQL.png)
+This is an agent demo built using Couchbase, Streamlit, LangGraph, and OpenAI.
 
-## Agent Demo using Couchbase, Streamlit, LangGraph, and OpenAI
+![app screenhshot](./Text_to_SQL.png)
 
 This is a demo app using agents built to generate and run SQL++ queries for Couchbase to answer users' natural language questions.
 
